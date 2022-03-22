@@ -17,4 +17,10 @@ public enum HandOfPoker {
 
     private final String name;
 
+    //役名表示用
+    @Override
+    public String toString() {
+        return name;
+    }
+
 }
